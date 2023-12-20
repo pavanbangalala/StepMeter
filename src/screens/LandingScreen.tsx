@@ -22,7 +22,7 @@ const TabNavigator = createMaterialTopTabNavigator();
 
 const tabBar = ({state, descriptors, navigation, position}) => {
   const {backgroundColor} = useContext(ThemeContext);
-  console.log('backgroundColor', backgroundColor);
+
   return (
     <View style={{flexDirection: 'row'}}>
       {state.routes.map((route, index) => {

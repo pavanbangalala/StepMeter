@@ -1,4 +1,5 @@
 export default {
+  white: '#ffffff',
   forest_green: '#14453D',
   hooners_green: '#3D7068',
   picton_blue: '#48BEFF',
