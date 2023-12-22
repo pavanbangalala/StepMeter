@@ -16,6 +16,7 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		2B0C2A1BE2DF4FC69D5A62D0 /* Lora Italic Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDD117CB2E0E40A48B6939D5 /* Lora Italic Italic.ttf */; };
 		D23DDE119EDA435680F7F5FF /* Lora Regular Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48D2775781B54D198FBE2242 /* Lora Regular Regular.ttf */; };
+		C02DA2E145EB424BA7839D01 /* Oswald Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 561DF4949F974A74B7439EC0 /* Oswald Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		CDD117CB2E0E40A48B6939D5 /* Lora Italic Italic.ttf */ = {isa = PBXFileReference; name = "Lora Italic Italic.ttf"; path = "../assets/fonts/Lora Italic Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		48D2775781B54D198FBE2242 /* Lora Regular Regular.ttf */ = {isa = PBXFileReference; name = "Lora Regular Regular.ttf"; path = "../assets/fonts/Lora Regular Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		561DF4949F974A74B7439EC0 /* Oswald Light.ttf */ = {isa = PBXFileReference; name = "Oswald Light.ttf"; path = "../assets/fonts/Oswald Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			children = (
 				CDD117CB2E0E40A48B6939D5 /* Lora Italic Italic.ttf */,
 				48D2775781B54D198FBE2242 /* Lora Regular Regular.ttf */,
+				561DF4949F974A74B7439EC0 /* Oswald Light.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				2B0C2A1BE2DF4FC69D5A62D0 /* Lora Italic Italic.ttf in Resources */,
 				D23DDE119EDA435680F7F5FF /* Lora Regular Regular.ttf in Resources */,
+				C02DA2E145EB424BA7839D01 /* Oswald Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

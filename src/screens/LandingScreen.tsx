@@ -75,6 +75,7 @@ const tabBar = ({state, descriptors, navigation, position}) => {
 const topTabs = () => {
   return (
     <TabNavigator.Navigator
+      screenOptions={{swipeEnabled: false}}
       initialLayout={{width: width}}
       tabBarPosition="top"
       tabBar={props => tabBar(props)}>

@@ -4,14 +4,18 @@ import LinearGradient from 'react-native-linear-gradient';
 import {ThemeContext} from '../Context/ThemeContext';
 import StepCount from '../components/StepCount';
 import {numberWithCommas} from '../utils/HelperFunctions';
+import ActivityDetails from '../components/ActivityDetails';
+import TotalDetails from '../components/TotalDetails';
+import Swiper from 'react-native-swiper';
 
 const DayScreen = () => {
-  const {colors} = useContext(ThemeContext);
   const steps = numberWithCommas(10225);
   return (
-    <LinearGradient colors={colors} style={styles.container}>
-      <StepCount stepCount={steps} />
-    </LinearGradient>
+    <Swiper horizontal={true} index={0} showsPagination={false}>
+      <TotalDetails steps={steps} />
+      <TotalDetails steps={steps} />
+      <TotalDetails steps={steps} />
+    </Swiper>
   );
 };
 

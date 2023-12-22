@@ -26,8 +26,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'baseline',
-    paddingHorizontal: 8,
-    marginVertical: 16,
+    paddingHorizontal: 4,
+    marginTop: 8,
   },
   stepText: {
     fontSize: 72,
